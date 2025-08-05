@@ -4,7 +4,7 @@ import SwiftUI
 struct ExpenseTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            TransactionListView()
+            ContentView()
         }
     }
 }
