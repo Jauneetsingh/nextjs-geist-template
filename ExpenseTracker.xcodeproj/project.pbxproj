@@ -14,6 +14,7 @@
 		A1234567890123456789013C /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789013D /* TransactionDetailView.swift */; };
 		A1234567890123456789013E /* MessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789013F /* MessageParser.swift */; };
 		A1234567890123456789014A /* MessageListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789014B /* MessageListener.swift */; };
+		A1234567890123456789014C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789014D /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A1234567890123456789013D /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
 		A1234567890123456789013F /* MessageParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageParser.swift; sourceTree = "<group>"; };
 		A1234567890123456789014B /* MessageListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListener.swift; sourceTree = "<group>"; };
+		A1234567890123456789014D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1234567890123456789015A /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1234567890123456789015B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				A1234567890123456789012B /* ExpenseTrackerApp.swift */,
+				A1234567890123456789014D /* ContentView.swift */,
 				A1234567890123456789015E /* Models */,
 				A1234567890123456789015F /* Views */,
 				A1234567890123456789016A /* Services */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1234567890123456789012A /* ExpenseTrackerApp.swift in Sources */,
+				A1234567890123456789014C /* ContentView.swift in Sources */,
 				A1234567890123456789012C /* Transaction.swift in Sources */,
 				A1234567890123456789012E /* Category.swift in Sources */,
 				A1234567890123456789013A /* TransactionListView.swift in Sources */,
